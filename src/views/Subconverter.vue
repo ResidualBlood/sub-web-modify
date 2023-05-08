@@ -463,6 +463,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
+          "自用后端":"https://suc.duohao.xyz/sub?",
           "本地局域网版后端": "http://127.0.0.1:25500/sub?",
           "肥羊增强型后端【vless+hysteria】": "https://api.v1.mk/sub?",
           "肥羊备用后端【vless+hysteria】": "https://sub.d1.mk/sub?",
@@ -473,6 +474,7 @@ export default {
           "sub作者&lhie1提供": "https://api.dler.io/sub?",
         },
         backendOptions: [
+          {value: "https://suc.duohao.xyz/sub?" },
           {value: "http://127.0.0.1:25500/sub?"},
           {value: "https://api.v1.mk/sub?"},
           {value: "https://sub.d1.mk/sub?"},
@@ -483,6 +485,61 @@ export default {
           {value: "https://api.dler.io/sub?"},
         ],
         remoteConfig: [
+          {
+            label: "New",
+            options: [
+              {
+                label: "Home",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/Home.ini"
+              },
+              {
+                label: "SP",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/SP.ini"
+              },
+              {
+                label: "HONY",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/HONY.ini"
+              }
+            ]
+          },
+          { 
+            label: "Myself",
+            options: [
+              {
+                label: "ACLALL",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/ACL4SSR/master/Clash/Myself/config/ACLALL.ini"
+              },
+              {
+                label: "ACLALL_Home",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/ACL4SSR/master/Clash/Myself/config/ACLALL_Home.ini"
+              },
+              {
+                label: "ACLALL_SP",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/ACL4SSR/master/Clash/Myself/config/ACLALL_SP.ini"
+              },
+              {
+                label: "ACLALL_HONY",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/ACL4SSR/master/Clash/Myself/config/ACLALL_HONY.ini"
+              },
+              {
+                label: "ACLALL_Maying",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/ACL4SSR/master/Clash/Myself/config/ACLALL_Maying.ini"
+              },
+              {
+                label: "ACLALL_Test",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/ACL4SSR/master/Clash/Myself/config/ACLALL_Test.ini"
+              }
+            ]
+          },
           {
             label: "通用",
             options: [
@@ -932,7 +989,7 @@ export default {
     this.isPC = this.$getOS().isPc;
   },
   mounted() {
-    this.tanchuang();
+    //this.tanchuang();
     this.form.clientType = "clash";
     this.getBackendVersion();
     this.anhei();
