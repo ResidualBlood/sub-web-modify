@@ -465,6 +465,7 @@ export default {
         customBackend: {
           "自用后端":"https://suc.duohao.xyz/sub?",
           "本地局域网版后端": "http://127.0.0.1:25500/sub?",
+          "奶昔后端":"https://api.nexconvert.com/sub?",
           "肥羊增强型后端【vless+hysteria】": "https://api.v1.mk/sub?",
           "肥羊备用后端【vless+hysteria】": "https://sub.d1.mk/sub?",
           "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one/sub?",
@@ -476,6 +477,7 @@ export default {
         backendOptions: [
           {value: "https://suc.duohao.xyz/sub?" },
           {value: "http://127.0.0.1:25500/sub?"},
+          {value: "https://api.nexconvert.com/sub?"},
           {value: "https://api.v1.mk/sub?"},
           {value: "https://sub.d1.mk/sub?"},
           {value: "https://api.tsutsu.one/sub?"},
