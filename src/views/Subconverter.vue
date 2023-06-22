@@ -485,26 +485,6 @@ export default {
           {value: "https://api.dler.io/sub?"},
         ],
         remoteConfig: [
-          {
-            label: "New",
-            options: [
-              {
-                label: "Home",
-                value:
-                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/Home.ini"
-              },
-              {
-                label: "SP",
-                value:
-                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/SP.ini"
-              },
-              {
-                label: "HONY",
-                value:
-                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/HONY.ini"
-              }
-            ]
-          },
           { 
             label: "Myself",
             options: [
@@ -537,6 +517,31 @@ export default {
                 label: "ACLALL_Test",
                 value:
                   "https://raw.githubusercontent.com/ResidualBlood/ACL4SSR/master/Clash/Myself/config/ACLALL_Test.ini"
+              }
+            ]
+          },
+          {
+            label: "New",
+            options: [
+              {
+                label: "Home",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/Home.ini"
+              },
+              {
+                label: "SP",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/SP.ini"
+              },
+              {
+                label: "IPV6",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/IPV6.ini"
+              },
+              {
+                label: "HONY",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/HONY.ini"
               }
             ]
           },
