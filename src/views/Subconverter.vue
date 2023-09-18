@@ -531,6 +531,11 @@ export default {
                   "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/Home.ini"
               },
               {
+                label: "Home_NOAD",
+                value:
+                  "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/Home_NOAD.ini"
+              },
+              {
                 label: "SP",
                 value:
                   "https://raw.githubusercontent.com/ResidualBlood/Clash_Rules/master/Myself/config/SP.ini"
